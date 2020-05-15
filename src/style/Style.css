@@ -1,0 +1,25 @@
+.Calculator {
+    width: 300px;
+    background: aqua;
+    padding:15px;
+}
+
+.Display {
+    padding: 5px;
+    font-size: 30px;
+    text-align: right;
+    background: aliceblue;
+    margin: 10px 0;
+}
+
+.Keyboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:10px;
+}
+
+.Keyboard button {
+    padding: 10px;
+    font-size: 24px;
+
+}
